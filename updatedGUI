@@ -1,14 +1,15 @@
+getgenv().SecureMode = true
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
 
 
 local Window = Rayfield:CreateWindow({
-    Name = "Corrupted GUI | dahood ",
-    LoadingTitle = "Corrupted DaHood GUI",
-    LoadingSubtitle = "by Corrupted#2222",
+    Name = "corrupted GUI | dahood",
+    LoadingTitle = "corrupted GUI",
+    LoadingSubtitle = "by corrupted",
     ConfigurationSaving = {
        Enabled = true,
        FolderName = corruptedGUI, -- Create a custom folder for your hub/game
-       FileName = "Corrupted script"
+       FileName = "updatedGUI"
     },
     Discord = {
        Enabled = true,
@@ -42,7 +43,7 @@ getgenv().Key = "Q"
 getgenv().DisableKey = "P"
 
 getgenv().FOV = true
-getgenv().ShowFOV = falsehttps://github.com/corrupted0331/corruptedupdatedGUI/blob/main/updatedGUI
+getgenv().ShowFOV = false
 getgenv().FOVSize = 55
 
 --// Variables (Service)
@@ -1111,5 +1112,11 @@ end,
     coroutine.resume(coroutine.create(Main2))
 end,
  })
+
+
+
+
+
+
 
 Rayfield:LoadConfiguration()
