@@ -42,7 +42,7 @@ getgenv().Key = "Q"
 getgenv().DisableKey = "P"
 
 getgenv().FOV = true
-getgenv().ShowFOV = false
+getgenv().ShowFOV = falsehttps://github.com/corrupted0331/corruptedupdatedGUI/blob/main/updatedGUI
 getgenv().FOVSize = 55
 
 --// Variables (Service)
